@@ -16,7 +16,6 @@ print(result)
 arr = array.array('i', [1, 2, 3, 4, 5])
 x = list()
 result = list()
-prod = reduce(mul, arr.tolist(), 1)
 
 for i in arr:
     x = arr.tolist()
