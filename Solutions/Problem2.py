@@ -3,7 +3,7 @@ from operator import mul
 from functools import reduce
 
 # Using division
-arr = array.array('i', [1, 2, 3, 4, 5])
+arr = array.array('i', [3, 2, 1])
 result = list()
 prod = reduce(mul, arr.tolist(), 1)
 
