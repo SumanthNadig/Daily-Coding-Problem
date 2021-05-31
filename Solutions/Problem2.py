@@ -8,7 +8,7 @@ result = list()
 prod = reduce(mul, arr.tolist(), 1)
 
 for i in arr:
-    result.append(round(prod / i))
+    result.append(prod // i)
 
 print(result)
 
